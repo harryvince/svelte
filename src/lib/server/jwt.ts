@@ -1,7 +1,6 @@
 import { error } from '@sveltejs/kit';
 import * as jose from 'jose';
 
-// This needs to be an env variable in future
 const JWT_SECRET = 'Super_Secret_Value';
 
 type JWTPayload = {

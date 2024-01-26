@@ -12,6 +12,7 @@ const user = {
 
 export const load = async (event: RequestEvent) => {
 	// Get sessionId from token
+
 	const token = event.cookies.get('auth_token');
 
 	// If there's a token redirect to homepage
